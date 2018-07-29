@@ -7,7 +7,7 @@ This program creates a data file of 100 records. Each record contains a single 3
 It then writes a couple of records into the file. Then it overwrites the second record. Finally, it displays the contents of the second record.
 
 ## How does it work?
-The program uses the struct library to encode and decode the Python data into binary. It uses the file io library to read and writes bytes into the data file.
+The program uses the `struct` library to encode and decode the Python data into binary. It uses the file io library to read and writes bytes into the data file.
 
 The layout of the data structure is defined by this object `Struct("i 20s")`. The lower case `i` represents a signed 32 bit integer value. And `20s` represents a 20 byte character string.
 
